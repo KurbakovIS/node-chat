@@ -1,0 +1,33 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "10.11.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KurbakovIS"
+  },
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "vuejs",
+    "chat"
+  ],
+  "author": "Kurbakov Ilia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "materialize-css": "^1.0.0-rc.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
